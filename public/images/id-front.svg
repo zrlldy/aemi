@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900"><rect width="640" height="900" fill="#dc97ff"/><g fill="#310055" font-family="Arial,sans-serif"><text x="48" y="115" font-size="55" font-weight="bold">aemi®</text><text x="370" y="110" font-size="20">Personal playground</text></g><defs><clipPath id="photo"><rect x="48" y="155" width="544" height="385" rx="18"/></clipPath></defs><g id="id-avatar" clip-path="url(#photo)"><g transform="translate(48 155)">
+  <title>Simple smiling cartoon portrait</title>
+  <rect width="544" height="385" fill="#bd68ee"/>
+  <g transform="translate(48 0) scale(1.25)">
+    <path d="M18 308C20 251 45 214 96 201C122 193 155 190 177 195C240 197 285 236 289 308Z" fill="#4a0a77"/>
+    <path d="M104 101L218 106C231 123 236 143 235 172C235 220 211 242 172 242C131 242 101 223 99 175Z" fill="#f0bd9a"/>
+    <path d="M85 112C80 79 88 58 109 46C135 28 163 34 181 38C222 45 246 57 251 83L257 160L228 113L213 132L135 105L110 177C93 173 88 159 87 143Z" fill="#291538"/>
+    <g fill="#310055"><circle cx="137" cy="158" r="5"/><circle cx="182" cy="161" r="5"/></g>
+    <path d="M151 181Q167 198 187 183" fill="none" stroke="#310055" stroke-width="2.7" stroke-linecap="round"/>
+    <path d="M312 93L371 99M338 66L342 122M322 73L361 113M322 112L360 74" fill="none" stroke="#f8eaff" stroke-width="4"/>
+  </g>
+</g></g><g fill="#310055" font-family="Arial,sans-serif"><text x="45" y="680" font-size="130" font-weight="bold" letter-spacing="-8">aemi.</text><text x="48" y="741" font-size="29">Backend developer</text><text x="48" y="783" font-size="29">+ Motion designer</text><text x="48" y="855" font-size="23">Cebu, Philippines</text><text x="530" y="855" font-size="30">↔</text></g></svg>

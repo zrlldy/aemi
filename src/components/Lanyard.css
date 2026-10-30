@@ -1,0 +1,22 @@
+.lanyard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.lanyard-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.lanyard-shell { position: relative; width: 100%; height: 100%; }
+.lanyard-flip { position: absolute; bottom: 30px; left: 20px; border: 0; border-radius: 30px; padding: 10px 16px; background: #dc97ff; color: #310055; font-size: 13px; }
+.lanyard-flip span { margin-left: 10px; }
+.lanyard-fallback { position: absolute; width: 56%; height: 65%; object-fit: contain; top: 18%; left: 22%; transform: rotate(8deg); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+.lanyard-shell { isolation: isolate; }
+.lanyard-canvas { z-index: 1; }
+.lanyard-flip { z-index: 2; }

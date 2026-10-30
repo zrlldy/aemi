@@ -1,0 +1,22 @@
+.project-art.eeejao { padding: 0; height: auto; min-height: 0; aspect-ratio: 2048 / 1074; background: #f8f5ee; }
+.eeejao img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.motion-project { min-width: 0; }
+.instagram-embed {
+  height: clamp(320px, 30vw, 420px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
+  border-radius: 8px;
+  background: #fff;
+}
+.instagram-embed iframe { display: block; width: 100%; height: 660px; min-height: 100%; border: 0; color-scheme: light; }
+.motion-project .project-heading { gap: 16px; }
+.motion-project .project-heading svg { flex-shrink: 0; }
+@media (min-width: 761px) and (max-width: 1100px) {
+  .motion-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .motion-grid { grid-template-columns: minmax(0, 1fr); }
+  .instagram-embed { max-width: 540px; margin-inline: auto; }
+}
